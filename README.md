@@ -1,16 +1,39 @@
-# course_management_app
+# Course Management App
 
-A new Flutter project.
+A Flutter-based mobile application for managing educational courses with an integrated AI-powered chatbot for course recommendations.
 
-## Getting Started
+## App Overview
+This application allows users to:
+- Create, view, update, and delete courses
+- Store course information in Firebase Firestore
+- Get AI-powered course recommendations through a chatbot
+- Enjoy a smooth, responsive user experience
 
-This project is a starting point for a Flutter application.
+## Tech Stack
+- Frontend: Flutter (Dart)
+- Backend: Firebase Firestore (NoSQL database)
+- State Management: GetX
+- AI Integration: Groq API with OpenAI model
+- HTTP Client: Dart http package
 
-A few resources to get you started if this is your first Flutter project:
+## Prerequisites
+- Before running this application, ensure you have:
+- Flutter SDK (version 3.0 or higher)
+- Android Studio or VS Code with Flutter extension
+- Firebase Account
+- Groq Account (for AI chatbot functionality)
+- Physical device or emulator for testing
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Setup Instructions
+1. Clone the Repository
+   - git clone <your-repository-url>
+   - cd course_management_app
+2. Install Dependencies
+   - flutter pub get
+3. Groq API Setup
+   - Sign up for a Groq account at https://groq.com/
+   - Get your API key from the dashboard
+   - Change .env.example file to .env and replace 'YOUR_GROQ_API_KEY' with your actual API key
+4. Run the Application
+   - flutter emulators --launch <emulator_name> (use this command only when you have to use emulator, otherwise skip)
+   - flutter run
