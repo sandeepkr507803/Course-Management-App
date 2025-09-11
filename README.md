@@ -17,7 +17,7 @@ This application allows users to:
 - HTTP Client: Dart http package
 
 ## Prerequisites
-- Before running this application, ensure you have:
+Before running this application, ensure you have:
 - Flutter SDK (version 3.0 or higher)
 - Android Studio or VS Code with Flutter extension
 - Firebase Account
@@ -34,6 +34,7 @@ This application allows users to:
    - Sign up for a Groq account at https://groq.com/
    - Get your API key from the dashboard
    - Change .env.example file to .env and replace 'YOUR_GROQ_API_KEY' with your actual API key
+   - Replace model name with your actual Groq model in chatbot_screen.dart file
 4. Run the Application
    - flutter emulators --launch <emulator_name> (use this command only when you have to use emulator, otherwise skip)
    - flutter run
